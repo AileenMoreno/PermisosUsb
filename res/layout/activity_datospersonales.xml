@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/tvDatosPersonales"
+        android:layout_width="match_parent"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/datosPersonales"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:background="#dadada" />
+    
+    <TextView
+        android:id="@+id/tvNombres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="25dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="5dp" 
+        android:textColor="#000000"
+        android:textSize= "16sp"       
+        android:text="@string/nombres"
+ />
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"        
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:background="#EAEAEA"
+        android:ems="10"
+        android:hint="@string/nombres" />
+    
+    <TextView
+        android:id="@+id/tvApellidos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="5dp"
+        android:text="@string/apellidos" 
+        android:textColor="#000000"
+        android:textSize= "16sp" />
+
+    <EditText
+        android:id="@+id/etApellido"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"        
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:background="#eaeaea"
+        android:ems="10"
+        android:hint="@string/apellidos" >
+        <requestFocus />
+    </EditText>
+    
+    <TextView
+        android:id="@+id/tvCedula"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="5dp"        
+        android:text="@string/cedula" 
+        android:textColor="#000000"
+        android:textSize= "16sp" />
+   
+    
+    <EditText
+        android:id="@+id/etCedula"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"        
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:background="#eaeaea"
+        android:ems="10"
+        android:hint="@string/cedula" >
+
+        <requestFocus />
+    </EditText>
+    
+    <TextView
+        android:id="@+id/tvTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="5dp"
+        android:text="@string/telefono" 
+        android:textColor="#000000"
+        android:textSize= "16sp" />       
+           
+        
+    <EditText
+        android:id="@+id/etTelefono"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"        
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:background="#eaeaea"
+        android:ems="10"
+        android:hint="@string/telefono" >
+        <requestFocus />
+    </EditText>
+    
+    <TextView
+        android:id="@+id/tvCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="5dp" 
+        android:text="@string/correo" 
+        android:textColor="#000000"
+        android:textSize= "16sp" />
+        
+        
+        
+    <EditText
+        android:id="@+id/etCorreo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"        
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:background="#eaeaea"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="@string/correo" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/bListo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"        
+        android:layout_marginTop="25dp"
+        android:text="@string/listo" />
+
+</LinearLayout>

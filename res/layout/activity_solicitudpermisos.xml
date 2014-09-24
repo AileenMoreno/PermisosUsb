@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tvSolicitudPermisos"
+        android:layout_width="match_parent"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/solicitudPermisos"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:background="#dadada" />
+
+
+    <CheckBox
+        android:id="@+id/cbPasantiaLarga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pasantiaLarga" />
+    
+    <CheckBox
+        android:id="@+id/cbPrimeraEtapaProyecto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/primeraEtapaProyecto" />
+    
+     <CheckBox
+        android:id="@+id/cbMinimoCreditos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/minimoCreditos" />
+     
+     <CheckBox
+        android:id="@+id/cbExcesoCreditos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/excesoCreditos" />    
+
+     <CheckBox
+        android:id="@+id/cbDosGenerales"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dosGenerales" />      
+
+    <CheckBox
+        android:id="@+id/cbElectivasArea"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/electivasArea" />
+    
+    <CheckBox
+        android:id="@+id/cbElectivasLibre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/electivasLibre" />
+    
+     <CheckBox
+        android:id="@+id/cbEtapaProyecto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/etapaProyecto" />
+     
+     <CheckBox
+        android:id="@+id/cbExtraplan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/extraplan" />    
+
+     <CheckBox
+        android:id="@+id/cbAsignaturasSinRequisito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/asignaturasSinRequisito" /> 
+        
+     <CheckBox
+        android:id="@+id/cbOtrosPermisos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/otrosPermisos" /> 
+        
+</LinearLayout>

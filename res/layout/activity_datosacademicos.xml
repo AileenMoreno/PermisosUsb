@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/tvDatosAcademicos"
+        android:layout_width="match_parent"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/datosAcademicos"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:background="#dadada" />
+    
+    <TextView
+        android:id="@+id/tvCarnet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="25dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="5dp" 
+        android:textColor="#000000"
+        android:textSize= "16sp"       
+        android:text="@string/carnet" />
+    
+    <EditText
+        android:id="@+id/etCarnet"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"        
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:background="#eaeaea"
+        android:ems="10"
+        android:hint="@string/carnet">
+
+        <requestFocus />
+    </EditText>
+    
+    
+    <TextView
+        android:id="@+id/tvIndice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="5dp" 
+        android:textColor="#000000"
+        android:textSize= "16sp"  
+        android:text="@string/indice" />
+    
+    <EditText
+        android:id="@+id/etIndice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"        
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:background="#eaeaea"
+        android:ems="10"
+        android:hint="@string/indice" >
+        <requestFocus />
+    </EditText>
+    
+    <TextView
+        android:id="@+id/tvTrimestre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="5dp" 
+        android:textColor="#000000"
+        android:textSize= "16sp"          
+        android:text="@string/trimestre" />    
+    
+    <EditText
+        android:id="@+id/etTrimestre"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"        
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:background="#eaeaea"
+        android:ems="10"
+        android:hint="@string/trimestre" >
+
+        <requestFocus />
+    </EditText>
+    
+    <TextView
+        android:id="@+id/tvTotalCreditos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingBottom="5dp" 
+        android:textColor="#000000"
+        android:textSize= "16sp"         
+        android:text="@string/totalCreditos" />    
+    
+    <EditText
+        android:id="@+id/etTotalCreditos"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"        
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:background="#eaeaea"
+        android:ems="10"
+        android:hint="@string/totalCreditos" >
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/bListo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"        
+        android:layout_marginTop="25dp"
+        android:text="@string/listo" />  
+</LinearLayout>

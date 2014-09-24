@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">Permisos Usb</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="titulo">Sistema de solicitud de permisos</string>
+    <string name="action_settings">Settings</string>
+    <string name="usb">Universidad Simon Bolivar</string>
+    
+    <!-- DATOS PERSONALES -->
+   	<string name="datosPersonales">DATOS PERSONALES</string>
+	<string name="nombres">Nombres</string>
+	<string name="apellidos">Apellidos</string>
+	<string name="cedula">Cedula</string>
+	<string name="edad">Edad</string>
+	<string name="nace">Año de nacimiento</string>	
+	<string name="telefono">Telefono</string>		
+	<string name="correo">Correo electronico</string>
+	<string name="correoSecundario">Correo electronico secundario</string>
+	
+	
+	<!-- DATOS ACADEMICOS -->
+   	<string name="datosAcademicos">DATOS ACADEMICOS</string>
+	<string name="carnet">Carnet</string>
+	<string name="indice">Indice</string>
+	<string name="trimestre">Trimestre</string>
+	<string name="totalCreditos">Total creditos aprobados</string>
+	
+	<!-- SOLICITUD PERMISOS -->
+   	<string name="solicitudPermisos">SOLICITUD PERMISOS</string>
+	<string name="pasantiaLarga">Pasantia Larga</string>
+	<string name="primeraEtapaProyecto">Primero etapa del proyecto + Topicos I</string>
+	<string name="minimoCreditos">Minimo de creditos</string>
+	<string name="excesoCreditos">Exceso de creditos</string>
+	<string name="dosGenerales">Dos generales</string>
+	<string name="electivasArea">Electivas de Areas</string>
+	<string name="electivasLibre">Electivas Libre</string>	
+	<string name="etapaProyecto">Etapa de proyecto</string>	
+	<string name="extraplan">Extraplan</string>
+	<string name="asignaturasSinRequisito">Asignaturas sin requisito</string>
+	<string name="otrosPermisos">Otros permisos</string>
+	
+	
+	<!-- BOTONES GRAFO -->
+   	<string name="primerAno">Primer Año</string>	
+   	<string name="trimestreSD">S - D</string>	
+   	<string name="trimestreEM">E - M</string>  	
+   	<string name="trimestreAJ">A - J</string>
+   	<string name="trimestreV">Verano</string>   	
+   	
+   	
+ 	<!-- BOTONES GRAFO  MATERIAS PRIMER ANO -->  	
+ 	
+   	<string name="matematicasUno">Matematicas I</string>
+	<string name="matematicasDos">Matematicas II</string>
+   	<string name="matematicasTres">Matematicas III</string>
+	<string name="fisicaUno">Fisica I</string>	
+	<string name="fisicaDos">Fisica II</string>	
+	<string name="inglesUno">Ingles I</string>
+	<string name="inglesDos">Ingles II</string>
+	<string name="inglesTres">Ingles III</string>	
+	<string name="lenguajesUno">Lenguajes I</string>
+	<string name="lenguajesDos">Lenguajes II</string>
+	<string name="lenguajesTres">Lenguajes III</string>
+	<string name="socialesUno">Introduccion Siglo XXI I</string>
+	<string name="socialesDos">Introduccion Siglo XXI II</string>
+	<string name="socialesTres">Introduccion Siglo XXI III</string>	
+	
+		
+ 	<!-- BOTONES GRAFO  MATERIAS SEGUNDO ANO -->
+ 	  
+	<string name="matematicasCuatro">Matematicas IV</string>	
+	<string name="matematicasCinco">Matematicas V</string>	
+	
+	
+	 		
+
+	<string name="dosGenerales">Dos generales</string>
+	<string name="electivasArea">Electivas de Areas</string>
+	<string name="electivasLibre">Electivas Libre</string>	
+	<string name="etapaProyecto">Etapa de proyecto</string>	
+	<string name="extraplan">Extraplan</string>
+	<string name="asignaturasSinRequisito">Asignaturas sin requisito</string>
+	<string name="otrosPermisos">Otros permisos</string>
+    
+    
+    		
+	<!-- BOTONES -->
+	<string name="listo">Listo</string>
+		
+</resources>
