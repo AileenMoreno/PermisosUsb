@@ -43,7 +43,7 @@
 	
 	
 	<!-- BOTONES GRAFO -->
-   	<string name="primerAno">Primer Año</string>	
+   	<string name="primerAno">PRIMER AÑO</string>	
    	<string name="trimestreSD">S - D</string>	
    	<string name="trimestreEM">E - M</string>  	
    	<string name="trimestreAJ">A - J</string>
@@ -67,6 +67,22 @@
 	<string name="socialesDos">Introduccion Siglo XXI II</string>
 	<string name="socialesTres">Introduccion Siglo XXI III</string>	
 	
+ 	<!-- CODIGOS GRAFO  MATERIAS PRIMER ANO -->  	
+ 	
+   	<string name="matematicasUnoC"> MA1111 | 4 </string>
+	<string name="matematicasDosC"> MA1112 | 4 </string>
+   	<string name="matematicasTresC"> MA1113 | 4 </string>
+	<string name="fisicaUnoC"> FS1111 | 3 </string>	
+	<string name="fisicaDosC"> FS1112 | 3 </string>	
+	<string name="inglesUnoC"> ID1111 | 3 </string>
+	<string name="inglesDosC"> ID1112 | 3 </string>
+	<string name="inglesTresC"> ID1113 | 3 </string>	
+	<string name="lenguajesUnoC"> LLA111 | 3 </string>
+	<string name="lenguajesDosC"> LLA112 | 3 </string>
+	<string name="lenguajesTresC"> LLA113 | 3 </string>
+	<string name="socialesUnoC"> CSA211 | 3 </string>
+	<string name="socialesDosC"> CSA212 | 3 </string>
+	<string name="socialesTresC"> CSA213 | 3 </string>		
 		
  	<!-- BOTONES GRAFO  MATERIAS SEGUNDO ANO -->
  	  

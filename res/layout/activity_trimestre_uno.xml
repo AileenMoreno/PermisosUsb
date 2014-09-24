@@ -8,20 +8,14 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"     >
     
- 
-    <!-- 1 column -->
-    <TableRow
-        android:id="@+id/trTitulo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:padding="5dip" >
- 
-        <TextView
-            android:id="@+id/tvTitulo"
-            android:text="@string/primerAno"/>
-        
-    </TableRow>
+    <TextView
+      android:id="@+id/tvTitulo"
+      android:layout_width="match_parent"
+      android:paddingTop="5dp"     
+      android:paddingBottom="5dp"         
+      android:gravity="center"  
+      android:background="@drawable/border_textview_style_titulo"      
+      android:text="@string/primerAno"/>  
  
      <!-- 3 columns -->
     <TableRow
@@ -29,84 +23,531 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:padding="5dip" >
+        android:padding="0dip">
 
         <TextView
             android:id="@+id/tvSD"
-            android:gravity="center"
+            android:gravity="center"       
+      		android:background="@drawable/border_textview_style_titulo"             
             android:text="@string/trimestreSD" />
 
         <TextView
             android:id="@+id/tvEM"
-            android:gravity="center"
+            android:gravity="center"         
+      		android:background="@drawable/border_textview_style_titulo"             
             android:text="@string/trimestreEM"/>
         
         <TextView
             android:id="@+id/tvAJ"
-        	android:gravity="center"            
+        	android:gravity="center"        	
+        	android:background="@drawable/border_textview_style_titulo" 
             android:text="@string/trimestreAJ"/>  
                   
     </TableRow>
- 
     
-     <!-- 3 columns -->
-    <TableRow
+     <!-- 3 columns --> 
+     <TableRow
         android:id="@+id/trFila1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:padding="5dip" >
- 
-     	  <!--Materia 1 -->
+        android:gravity="center"        
+        android:padding="0dip" >
+    
+        <Button
+           android:id="@+id/bMatematicasI"
+           android:layout_width="100dp"
+           android:layout_height="40dp"
+           android:layout_marginEnd="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           android:layout_marginStart="5dp"
+           android:layout_marginTop="10dp"
+           android:gravity="center"
+           android:onClick="agregarMateria"
+           android:text="@string/matematicasUno"
+           android:textSize="12sp"
+           android:background="@drawable/border_button_style" />
+        
+        <Button
+           android:id="@+id/bMatematicasII"
+           android:layout_width="100dp"
+           android:layout_height="40dp"
+           android:layout_marginEnd="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           android:layout_marginStart="5dp"
+           android:layout_marginTop="10dp"
+           android:gravity="center"
+           android:onClick="agregarMateria"
+           android:textSize="12sp"           
+           android:text="@string/matematicasDos"
+           android:background="@drawable/border_button_style" />
+
+        
+        <Button
+           android:id="@+id/bMatematicasIII"
+           android:layout_width="100dp"
+           android:layout_height="40dp"
+           android:layout_marginEnd="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           android:layout_marginStart="5dp"
+           android:layout_marginTop="10dp"
+           android:gravity="center"
+           android:onClick="agregarMateria"
+           android:textSize="12sp"           
+           android:text="@string/matematicasTres"
+           android:background="@drawable/border_button_style" />
+      </TableRow>    
+     <!-- 3 columns -->
+    <TableRow
+        android:id="@+id/trFila12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"        
+        android:padding="0dip" >
 
             
-         <TextView
-            android:id="@+id/tvMatematicasUno"
-            android:text="@string/matematicasUno" />
+        <TextView
+            android:id="@+id/tvMatematicasUnoC"
+            android:textSize="12sp"
+            android:textStyle="bold"     
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp"   
+            android:gravity="center"                     
+            android:text="@string/matematicasUnoC" 
+            android:background="@drawable/border_textview_style" />             
+        <TextView
+            android:id="@+id/tvMatematicasDosC"
+            android:textSize="12sp"
+            android:textStyle="bold"     
+			android:layout_marginEnd="5dp"
+			android:layout_marginLeft="5dp"
+			android:layout_marginRight="5dp"
+			android:layout_marginStart="5dp" 
+            android:gravity="center"    			          
+            android:text="@string/matematicasDosC"
+            android:background="@drawable/border_textview_style" /> 
+                    
+        <TextView
+            android:id="@+id/tvMatematicasTresC"
+            android:textSize="12sp"
+            android:textStyle="bold"    
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp" 
+            android:gravity="center"                           
+            android:text="@string/matematicasTresC"
+            android:background="@drawable/border_textview_style" /> 
+     </TableRow>
 
-        <TableRow>
 
-            <Button
-                android:id="@+id/bMatematicasII"
-                android:layout_width="69dp"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="25dp"
-                android:layout_marginLeft="25dp"
-                android:layout_marginRight="25dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="25dp"
-                android:gravity="clip_vertical"
-                android:onClick="agregarMateria"
-                android:text="@string/matematicasDos"
-                android:textSize="15sp" />
-        </TableRow>
+     <!-- 3 columns --> 
+     <TableRow
+        android:id="@+id/trFila2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"        
+        android:padding="0dip" >
+ 
+        <Button
+           android:id="@+id/bFisicavggI"
+           android:layout_width="100dp"
+           android:layout_height="40dp"
+           android:layout_marginEnd="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           android:layout_marginStart="5dp"
+           android:layout_marginTop="10dp"           
+           android:gravity="center"    
+           android:onClick="agregarMateria"
+           android:text="@string/fisicaUno"
+           android:textSize="12sp" 
+           android:background="@drawable/border_button_style" />         
+         
+        <Button
+           android:id="@+id/bFisicaI"
+           android:layout_width="100dp"
+           android:layout_height="40dp"
+           android:layout_marginEnd="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           android:layout_marginStart="5dp"
+           android:layout_marginTop="10dp"          
+           android:gravity="center"    
+           android:onClick="agregarMateria"
+           android:text="@string/fisicaUno"
+           android:textSize="12sp" 
+           android:background="@drawable/border_button_style" />
+        
+        <Button
+           android:id="@+id/bFisicaII"
+           android:layout_width="100dp"
+           android:layout_height="40dp"
+           android:layout_marginEnd="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           android:layout_marginStart="5dp"
+           android:layout_marginTop="10dp"
+           android:gravity="center"    
+           android:onClick="agregarMateria"
+           android:textSize="12sp"           
+           android:text="@string/fisicaDos"
+           android:background="@drawable/border_button_style" />
 
-        <TableRow>
-
-            <Button
-                android:id="@+id/bMatematicasI"
-                android:layout_width="69dp"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="25dp"
-                android:layout_marginLeft="25dp"
-                android:layout_marginRight="25dp"
-                android:layout_marginStart="25dp"
-                android:layout_marginTop="25dp"
-                android:gravity="clip_vertical"
-                android:onClick="agregarMateria"
-                android:text="@string/matematicasUno"
-                android:textSize="15sp" />
-        </TableRow>
-                  
+      
+      </TableRow>    
+     <!-- 3 columns -->
+    <TableRow
+        android:id="@+id/trFila22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"        
+        android:padding="0dip" >
         
         <TextView
-            android:id="@+id/tvMatematicasDos"
-            android:text="@string/matematicasDos"/>
-        
+            android:id="@+id/tvFisicaUnogC"
+            android:textSize="12sp"
+            android:textStyle="bold"              
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp" 
+            android:gravity="center"                             
+            android:text="@string/fisicaUnoC"
+            android:background="@drawable/border_textview_style" /> 
+            
         <TextView
-            android:id="@+id/tvMatematicasTres"
-            android:text="@string/matematicasTres"/>         
-    </TableRow>
+            android:id="@+id/tvFisicaUnoC"
+            android:textSize="12sp"
+            android:textStyle="bold"              
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp"  
+            android:gravity="center"                            
+            android:text="@string/fisicaUnoC"
+            android:background="@drawable/border_textview_style" /> 
 
+        <TextView
+            android:id="@+id/tvfisicaDosC"
+            android:textSize="12sp"
+            android:textStyle="bold"              
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp"
+            android:gravity="center"                              
+            android:text="@string/fisicaDosC"
+            android:background="@drawable/border_textview_style" /> 
+
+
+     </TableRow> 
+     
     
+     <!-- 3 columns --> 
+     <TableRow
+        android:id="@+id/trFila3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"        
+        android:padding="0dip" >
+    
+        <Button
+           android:id="@+id/bInglesI"            
+           android:layout_width="100dp"
+           android:layout_height="40dp"
+           android:layout_marginEnd="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           android:layout_marginStart="5dp"
+           android:layout_marginTop="10dp"
+           android:gravity="center"    
+           android:onClick="agregarMateria"
+           android:text="@string/inglesUno"
+           android:textSize="12sp" 
+           android:background="@drawable/border_button_style" />
+        
+        <Button
+           android:id="@+id/bInglesII"
+           android:layout_width="100dp"
+           android:layout_height="40dp"
+           android:layout_marginEnd="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           android:layout_marginStart="5dp"
+           android:layout_marginTop="10dp"
+           android:gravity="center"    
+           android:onClick="agregarMateria"
+           android:textSize="12sp"           
+           android:text="@string/inglesDos"
+           android:background="@drawable/border_button_style" />
+
+        
+        <Button
+           android:id="@+id/bInglesIII"
+           android:layout_width="100dp"
+           android:layout_height="40dp"
+           android:layout_marginEnd="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           android:layout_marginStart="5dp"
+           android:layout_marginTop="10dp"
+           android:gravity="center"    
+           android:onClick="agregarMateria"
+           android:textSize="12sp"           
+           android:text="@string/inglesTres"
+           android:background="@drawable/border_button_style" />
+      </TableRow>    
+     <!-- 3 columns -->
+    <TableRow
+        android:id="@+id/trFila32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"        
+        android:padding="0dip" >
+
+            
+        <TextView
+            android:id="@+id/tvInglesUnoC"
+            android:textSize="12sp"
+            android:textStyle="bold"              
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp" 
+            android:gravity="center"                             
+            android:text="@string/inglesUnoC" 
+            android:background="@drawable/border_textview_style" />             
+
+        <TextView
+            android:id="@+id/tvInglesDosC"
+            android:textSize="12sp"
+            android:textStyle="bold"              
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp" 
+            android:gravity="center"                             
+            android:text="@string/inglesDosC"
+            android:background="@drawable/border_textview_style" /> 
+        
+        <TextView
+            android:id="@+id/tvInglesTresC"
+            android:textSize="12sp"
+            android:textStyle="bold"              
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp"    
+            android:gravity="center"                          
+            android:text="@string/inglesTresC"
+            android:background="@drawable/border_textview_style" />  
+     </TableRow>    
+     
+     <!-- 3 columns --> 
+     <TableRow
+        android:id="@+id/trFila4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"        
+        android:padding="0dip" >
+    
+        <Button
+           android:id="@+id/bLenguajesI"            
+           android:layout_width="100dp"
+           android:layout_height="40dp"
+           android:layout_marginEnd="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           android:layout_marginStart="5dp"
+           android:layout_marginTop="10dp"
+           android:gravity="center"    
+           android:onClick="agregarMateria"
+           android:text="@string/lenguajesUno"
+           android:textSize="12sp" 
+           android:background="@drawable/border_button_style" />
+        
+        <Button
+           android:id="@+id/bLenguajesII"
+           android:layout_width="100dp"
+           android:layout_height="40dp"
+           android:layout_marginEnd="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           android:layout_marginStart="5dp"
+           android:layout_marginTop="10dp"
+           android:gravity="center"    
+           android:onClick="agregarMateria"
+           android:textSize="12sp"           
+           android:text="@string/lenguajesDos"
+           android:background="@drawable/border_button_style" />
+
+        
+        <Button
+           android:id="@+id/bLenguajesIII"
+           android:layout_width="100dp"
+           android:layout_height="40dp"
+           android:layout_marginEnd="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           android:layout_marginStart="5dp"
+           android:layout_marginTop="10dp"
+           android:gravity="center"    
+           android:onClick="agregarMateria"
+           android:textSize="12sp"           
+           android:text="@string/lenguajesTres"
+           android:background="@drawable/border_button_style" />
+      </TableRow>    
+     <!-- 3 columns -->
+    <TableRow
+        android:id="@+id/trFila42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"        
+        android:padding="0dip" >
+
+            
+        <TextView
+            android:id="@+id/tvLenguajesUnoC"
+            android:textSize="12sp"
+            android:textStyle="bold"              
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp" 
+            android:gravity="center"                             
+            android:text="@string/lenguajesUnoC" 
+            android:background="@drawable/border_textview_style" />             
+
+        <TextView
+            android:id="@+id/tvLenguajesDosC"
+            android:textSize="12sp"
+            android:textStyle="bold"              
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp" 
+            android:gravity="center"                             
+            android:text="@string/lenguajesDosC"
+            android:background="@drawable/border_textview_style" /> 
+        
+        <TextView
+            android:id="@+id/tvLenguajesTresC"
+            android:textSize="12sp"
+            android:textStyle="bold"              
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp"    
+            android:gravity="center"                          
+            android:text="@string/lenguajesTresC"
+            android:background="@drawable/border_textview_style" />  
+     </TableRow>    
+        
+    
+     <!-- 3 columns --> 
+     <TableRow
+        android:id="@+id/trFila5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"        
+        android:padding="0dip" >
+    
+        <Button
+           android:id="@+id/bSocialesI"            
+           android:layout_width="100dp"
+           android:layout_height="40dp"
+           android:layout_marginEnd="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           android:layout_marginStart="5dp"
+           android:layout_marginTop="10dp"
+           android:gravity="center"    
+           android:onClick="agregarMateria"
+           android:text="@string/socialesUno"
+           android:textSize="12sp" 
+           android:background="@drawable/border_button_style" />
+        
+        <Button
+           android:id="@+id/bSocialesII"
+           android:layout_width="100dp"
+           android:layout_height="40dp"
+           android:layout_marginEnd="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           android:layout_marginStart="5dp"
+           android:layout_marginTop="10dp"
+           android:gravity="center"    
+           android:onClick="agregarMateria"
+           android:textSize="12sp"           
+           android:text="@string/socialesDos"
+           android:background="@drawable/border_button_style" />
+
+        
+        <Button
+           android:id="@+id/bSocialesIII"
+           android:layout_width="100dp"
+           android:layout_height="40dp"
+           android:layout_marginEnd="5dp"
+           android:layout_marginLeft="5dp"
+           android:layout_marginRight="5dp"
+           android:layout_marginStart="5dp"
+           android:layout_marginTop="10dp"
+           android:gravity="center"    
+           android:onClick="agregarMateria"
+           android:textSize="12sp"           
+           android:text="@string/socialesTres"
+           android:background="@drawable/border_button_style" />
+      </TableRow>    
+     <!-- 3 columns -->
+    <TableRow
+        android:id="@+id/trFila52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"        
+        android:padding="0dip" >
+
+            
+        <TextView
+            android:id="@+id/tvSocialesUnoC"
+            android:textSize="12sp"
+            android:textStyle="bold"              
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp" 
+            android:gravity="center"                             
+            android:text="@string/lenguajesUnoC" 
+            android:background="@drawable/border_textview_style" />             
+
+        <TextView
+            android:id="@+id/tvSocialesDosC"
+            android:textSize="12sp"
+            android:textStyle="bold"              
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp" 
+            android:gravity="center"                             
+            android:text="@string/socialesDosC"
+            android:background="@drawable/border_textview_style" /> 
+        
+        <TextView
+            android:id="@+id/tvSocialesTresC"
+            android:textSize="12sp"
+            android:textStyle="bold"              
+            android:layout_marginEnd="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginStart="5dp"    
+            android:gravity="center"                          
+            android:text="@string/socialesTresC"
+            android:background="@drawable/border_textview_style" />  
+     </TableRow>    
+            
 </TableLayout>
 

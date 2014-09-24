@@ -1078,11 +1078,14 @@ containing a value of this type.
         public static final int abc_textfield_searchview_right_holo_dark=0x7f020055;
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
         public static final int blanco=0x7f020057;
-        public static final int boton_grafo=0x7f020058;
-        public static final int ic_launcher=0x7f020059;
-        public static final int logotodonegro=0x7f02005a;
-        public static final int splash=0x7f02005b;
-        public static final int splash2=0x7f02005c;
+        public static final int border_button_style=0x7f020058;
+        public static final int border_textview_style=0x7f020059;
+        public static final int border_textview_style_titulo=0x7f02005a;
+        public static final int boton_grafo=0x7f02005b;
+        public static final int ic_launcher=0x7f02005c;
+        public static final int logotodonegro=0x7f02005d;
+        public static final int splash=0x7f02005e;
+        public static final int splash2=0x7f02005f;
     }
     public static final class id {
         public static final int action_bar=0x7f05001c;
@@ -1096,12 +1099,25 @@ containing a value of this type.
         public static final int action_menu_divider=0x7f050016;
         public static final int action_menu_presenter=0x7f050017;
         public static final int action_mode_close_button=0x7f050024;
-        public static final int action_settings=0x7f05006b;
+        public static final int action_settings=0x7f05008c;
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
+        public static final int bFisicaI=0x7f05006e;
+        public static final int bFisicaII=0x7f05006f;
+        public static final int bFisicavggI=0x7f05006d;
+        public static final int bInglesI=0x7f050075;
+        public static final int bInglesII=0x7f050076;
+        public static final int bInglesIII=0x7f050077;
+        public static final int bLenguajesI=0x7f05007d;
+        public static final int bLenguajesII=0x7f05007e;
+        public static final int bLenguajesIII=0x7f05007f;
         public static final int bListo=0x7f050045;
-        public static final int bMatematicasI=0x7f05006a;
-        public static final int bMatematicasII=0x7f050069;
+        public static final int bMatematicasI=0x7f050065;
+        public static final int bMatematicasII=0x7f050066;
+        public static final int bMatematicasIII=0x7f050067;
+        public static final int bSocialesI=0x7f050085;
+        public static final int bSocialesII=0x7f050086;
+        public static final int bSocialesIII=0x7f050087;
         public static final int beginning=0x7f050011;
         public static final int cbAsignaturasSinRequisito=0x7f05005b;
         public static final int cbDosGenerales=0x7f050056;
@@ -1168,28 +1184,48 @@ containing a value of this type.
         public static final int tableLayout1=0x7f05005e;
         public static final int title=0x7f05002b;
         public static final int top_action_bar=0x7f050020;
-        public static final int trFila1=0x7f050065;
-        public static final int trSubtitulos=0x7f050061;
-        public static final int trTitulo=0x7f05005f;
-        public static final int tvAJ=0x7f050064;
+        public static final int trFila1=0x7f050064;
+        public static final int trFila12=0x7f050068;
+        public static final int trFila2=0x7f05006c;
+        public static final int trFila22=0x7f050070;
+        public static final int trFila3=0x7f050074;
+        public static final int trFila32=0x7f050078;
+        public static final int trFila4=0x7f05007c;
+        public static final int trFila42=0x7f050080;
+        public static final int trFila5=0x7f050084;
+        public static final int trFila52=0x7f050088;
+        public static final int trSubtitulos=0x7f050060;
+        public static final int tvAJ=0x7f050063;
         public static final int tvApellidos=0x7f050049;
         public static final int tvCarnet=0x7f05003d;
         public static final int tvCedula=0x7f05004b;
         public static final int tvCorreo=0x7f05004f;
         public static final int tvDatosAcademicos=0x7f05003c;
         public static final int tvDatosPersonales=0x7f050046;
-        public static final int tvEM=0x7f050063;
+        public static final int tvEM=0x7f050062;
+        public static final int tvFisicaUnoC=0x7f050072;
+        public static final int tvFisicaUnogC=0x7f050071;
         public static final int tvIndice=0x7f05003f;
-        public static final int tvMatematicasDos=0x7f050066;
-        public static final int tvMatematicasTres=0x7f050067;
-        public static final int tvMatematicasUno=0x7f050068;
+        public static final int tvInglesDosC=0x7f05007a;
+        public static final int tvInglesTresC=0x7f05007b;
+        public static final int tvInglesUnoC=0x7f050079;
+        public static final int tvLenguajesDosC=0x7f050082;
+        public static final int tvLenguajesTresC=0x7f050083;
+        public static final int tvLenguajesUnoC=0x7f050081;
+        public static final int tvMatematicasDosC=0x7f05006a;
+        public static final int tvMatematicasTresC=0x7f05006b;
+        public static final int tvMatematicasUnoC=0x7f050069;
         public static final int tvNombres=0x7f050047;
-        public static final int tvSD=0x7f050062;
+        public static final int tvSD=0x7f050061;
+        public static final int tvSocialesDosC=0x7f05008a;
+        public static final int tvSocialesTresC=0x7f05008b;
+        public static final int tvSocialesUnoC=0x7f050089;
         public static final int tvSolicitudPermisos=0x7f050051;
         public static final int tvTelefono=0x7f05004d;
-        public static final int tvTitulo=0x7f050060;
+        public static final int tvTitulo=0x7f05005f;
         public static final int tvTotalCreditos=0x7f050043;
         public static final int tvTrimestre=0x7f050041;
+        public static final int tvfisicaDosC=0x7f050073;
         public static final int up=0x7f050021;
         public static final int useLogo=0x7f050003;
         public static final int withText=0x7f05000c;
@@ -1318,27 +1354,40 @@ containing a value of this type.
         public static final int excesoCreditos=0x7f0a0024;
         public static final int extraplan=0x7f0a0029;
         public static final int fisicaDos=0x7f0a0035;
+        public static final int fisicaDosC=0x7f0a0043;
         public static final int fisicaUno=0x7f0a0034;
+        public static final int fisicaUnoC=0x7f0a0042;
         public static final int hello_world=0x7f0a000e;
         public static final int indice=0x7f0a001d;
         public static final int inglesDos=0x7f0a0037;
+        public static final int inglesDosC=0x7f0a0045;
         public static final int inglesTres=0x7f0a0038;
+        public static final int inglesTresC=0x7f0a0046;
         public static final int inglesUno=0x7f0a0036;
+        public static final int inglesUnoC=0x7f0a0044;
         public static final int lenguajesDos=0x7f0a003a;
+        public static final int lenguajesDosC=0x7f0a0048;
         public static final int lenguajesTres=0x7f0a003b;
+        public static final int lenguajesTresC=0x7f0a0049;
         public static final int lenguajesUno=0x7f0a0039;
+        public static final int lenguajesUnoC=0x7f0a0047;
         /**  BOTONES 
          */
-        public static final int listo=0x7f0a0041;
-        public static final int matematicasCinco=0x7f0a0040;
+        public static final int listo=0x7f0a004f;
+        public static final int matematicasCinco=0x7f0a004e;
         /**  BOTONES GRAFO  MATERIAS SEGUNDO ANO 
          */
-        public static final int matematicasCuatro=0x7f0a003f;
+        public static final int matematicasCuatro=0x7f0a004d;
         public static final int matematicasDos=0x7f0a0032;
+        public static final int matematicasDosC=0x7f0a0040;
         public static final int matematicasTres=0x7f0a0033;
+        public static final int matematicasTresC=0x7f0a0041;
         /**  BOTONES GRAFO  MATERIAS PRIMER ANO 
          */
         public static final int matematicasUno=0x7f0a0031;
+        /**  CODIGOS GRAFO  MATERIAS PRIMER ANO 
+         */
+        public static final int matematicasUnoC=0x7f0a003f;
         public static final int minimoCreditos=0x7f0a0023;
         public static final int nace=0x7f0a0017;
         public static final int nombres=0x7f0a0013;
@@ -1349,8 +1398,11 @@ containing a value of this type.
         public static final int primerAno=0x7f0a002c;
         public static final int primeraEtapaProyecto=0x7f0a0022;
         public static final int socialesDos=0x7f0a003d;
+        public static final int socialesDosC=0x7f0a004b;
         public static final int socialesTres=0x7f0a003e;
+        public static final int socialesTresC=0x7f0a004c;
         public static final int socialesUno=0x7f0a003c;
+        public static final int socialesUnoC=0x7f0a004a;
         /**  SOLICITUD PERMISOS 
          */
         public static final int solicitudPermisos=0x7f0a0020;
